@@ -1,8 +1,10 @@
 import random
 
 def DragonGame():
-    print('Welcome to Dragon Land!  This is a place full of danger and adventure.  \
-Find the good dragon with a tremendous reward, and avoid being eaten! (press ENTER to continue)')
+    print('''Welcome to Dragon Land!  This is a place full of danger and adventure. 
+Find the good dragon with a tremendous reward, and avoid being eaten! 
+
+(press ENTER to continue)''')
 
     input()
 
@@ -20,8 +22,8 @@ riches beyond your wildest dreams!')
 
 DragonGame()
 
-for i in range(1,1000):
-    print('would you like to play again? (type "y" to play again)')
+while 1 == 1:
+    print('would you like to play again? (type "y" to play again or "n" to stop playing)')
     Choice = input()
     if Choice == 'y':
         DragonGame()
